@@ -37,3 +37,7 @@ function startNotifications(){
         alert("This is a repeated notification.");
     }, 1000);
 }
+
+function stopTimer(){
+    clearInterval(notificationInterval)
+}
